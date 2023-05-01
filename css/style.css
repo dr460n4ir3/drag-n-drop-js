@@ -1,0 +1,42 @@
+body {
+    background: orangered;
+}
+
+.fill {
+    /*background-image: url('http://source.unsplash.com/random/150x150');*/
+    position: auto;
+    height: 50px; /* box height */
+    width: 250px; /* box width */
+    top: 5px;
+    left: 5px;
+    cursor: pointer; /* chanegs mouse to pointer on hoover */
+}
+
+.hold {
+    border: solid #ccc 4px;
+}
+
+.empty {
+    display: inline-block;
+    height: 260px; /* 150px + 10px margin */
+    width: 260px; /* 150px + 10px margin */
+    margin: 10px;
+    border: solid 3px limegreen;
+    background-color: #f1f1f1;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+/*.invisible {
+    display: none;
+}*/
+
+/*.task {
+    padding: 4px;
+    margin: 4px;
+    width: 4px;
+    height: 4px;
+}
