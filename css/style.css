@@ -4,7 +4,7 @@ body {
 
 .fill {
     /*background-image: url('http://source.unsplash.com/random/150x150');*/
-    position: auto;
+    position: relative;
     height: 50px; /* box height */
     width: 250px; /* box width */
     top: 5px;
@@ -18,25 +18,25 @@ body {
 
 .empty {
     display: inline-block;
-    height: 260px; /* 150px + 10px margin */
+    height: 60px; /* 150px + 10px margin */
     width: 260px; /* 150px + 10px margin */
     margin: 10px;
     border: solid 3px limegreen;
     background-color: #f1f1f1;
 }
 
-.hovered {
+/*.hovered {
     background: #f4f4f4;
     border-style: dashed;
-}
+}*/
 
 /*.invisible {
     display: none;
 }*/
 
-/*.task {
+.task-form {
     padding: 4px;
     margin: 4px;
-    width: 4px;
-    height: 4px;
+    width: 60px;
+    height: 60px;
 }

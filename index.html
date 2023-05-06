@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Drag-N-Drop-JS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Drag-N-Drop-JS</title>
 </head>
 <body>
-    <div>
-        <h1>KANBAN PROTOTYPE</h1>
-    </div>
-    
+  <div>
+    <h1>KANBAN PROTOTYPE</h1>
+  </div>
 
-    <div class="empty">
-        
-        <input type="text" placeholder="Enter Task" id="task" class="fill" draggable="true">
-        <button onclick="addTask()">Add Task</button>
-        <!-- <div class="fill" draggable="true"></div> -->
-    </div>
+  <div class="empty">
+    <div class="fill" draggable="true"><p>this is a test</p></div>
+  </div>
 
-    <div class="empty"></div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-    <div class="empty"></div>
+  <div class="empty" id="tasks"></div>
+  <div class="empty" id="tasks"></div>
+  <div class="empty" id="tasks"></div>
+  <div class="empty" id="tasks"></div>
 
-    <script src="js/main.js"></script>
+  <form id="task-form" class="empty">
+    <input type="text" id="task" placeholder="Enter task...">
+    <button type="submit">Add Task</button>
+  </form>
+  
+
+  <script src="js/main.js"></script>
 </body>
 </html>
